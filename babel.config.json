@@ -1,0 +1,27 @@
+{
+    "plugins": [
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        "@babel/plugin-proposal-class-properties"
+    ],
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "targets": {
+                    "node": "12.19.0"
+                }
+            }
+        ],
+        [
+            "@babel/preset-typescript",
+            {
+                "allowNamespaces": false
+            }
+        ]
+    ]
+}

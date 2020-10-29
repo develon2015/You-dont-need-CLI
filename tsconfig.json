@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node", // 模块解析度，设置为Node平台
+        "target": "es2015", // 编译为ES6代码，再交给Babel处理
+        "experimentalDecorators": true, // 保留类装饰器
+        "declaration": true // 支持导出类型声明文件
+    }
+}
