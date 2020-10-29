@@ -7,6 +7,7 @@
   },
   "license": "MIT",
   "dependencies": {
+    "@develon/js": "^1.0.2",
     "@nestjs/common": "^7.4.4",
     "@nestjs/core": "^7.4.4",
     "@nestjs/platform-express": "^7.4.4",
